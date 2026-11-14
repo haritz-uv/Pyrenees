@@ -1,5 +1,5 @@
 # Pyrenees
-Statistical Downscaling project
-Pyrenees meteorological data with 31x31km resolution downscaled to 9x9km using randomforest machine learning. The objective is to learn QGIS, SQL and gain experience with meteorological data. The results are going to be measured there with a thermometer, as I'm going to do a 5 day trekking route on the Pyrenees.
+Statistical Downscaling project.
+HadGEM2-ES is a GCM that resolves the atmosphere in a ~140km grid resolution, the Pyrenees on that resolution seem like a gentle hill. Temperatures and rain given from this GCM have a systematic bias and the valleys and summits are can't be seen. 
 
-The .html prediction is not good enough, many improvements are planned: Implementing Global Climate Models (GCMs), Bias correction and covariability through Multivariate Adaptive Constructed Analogs (MACA) downscale methods.
+Our objective is to downscale its resolution to a ~10km grid. The idea downscaling method used is the Multivariable Adaptative Constructed Analogs (MACA) method.
